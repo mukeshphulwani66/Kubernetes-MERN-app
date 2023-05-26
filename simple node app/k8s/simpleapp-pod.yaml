@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: simple-app
+  labels: 
+     name: simple-app
+spec:
+  containers:
+    - name: simple-app-con
+      image: mukeshphulwani66/simple-app
+      ports: 
+        - containerPort: 5000
+
+
